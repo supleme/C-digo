@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+
+}
+
+/*
+    #FE6F27
+    2F2F2B
+*/
+body {
+    background: linear-gradient(to left, #2F2F2B, #fe6f27ec, #2F2F2B);
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+a,
+label {
+    font-family: .8em;
+}
+
+a:hover {
+    color: #085588
+}
+
+#login-container {
+    background-color: #fff;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #085588;
+}
+
+#forgot-pass {
+    text-align: center;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #085588;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition: .6s;
+}
+
+#register-container p {
+    margin-bottom: 10px;
+
+}
+
+#logo {
+    object-fit: fill;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
