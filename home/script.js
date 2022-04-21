@@ -20,5 +20,3 @@ function alterna(c) {
 }
 
 chave = setInterval(alterna, 2000);
-
-document.getElementsByTagName('confirmar').addEventListener('click', alterna)

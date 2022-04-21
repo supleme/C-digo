@@ -8,7 +8,8 @@ document.getElementById('Cadastrar').addEventListener('click', () => {
                 document.getElementById("carregar").style.display = 'block';
                 window.location.href = "file:///C:/Users/cesar/Desktop/Faculdade/Pepper%20Crasher/C%C3%B3digo/home/index.html"
                 window.location.href = "http://127.0.0.1:5500/home/index.html"
-            }, 1000)
+                console.log('teste')
+            }, 2000)
 
         }
         if (!(selecionado.checked)) {
